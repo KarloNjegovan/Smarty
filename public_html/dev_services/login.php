@@ -12,15 +12,14 @@ include "Database.php";
 
 $db = new Database();
 
-$username = $_POST["user"];
-$pass = $_POST["pass"];
+$username = $db->escapeString($_GET["user"]);
+$pass = $db->escapeString($_GET["pass"]);
 
 $result = $db ->executeQuery("SELECT * FROM `mjerenje_testAplikacija`.`Korisnik` WHERE kor_ime = '$username' and lozinka = '$pass'");
 $db->close();
 
 if(mysqli_num_rows($result)>0){
-  echo  "Uspjesno logiranje";
-  
+    echo  "Uspjesno logiranje";
 }
 else{
     echo "Neuspjeh";
