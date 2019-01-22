@@ -1,11 +1,20 @@
 <?php
 require "DataManager.php";
-require "Database.php";
 
-$db = new Database();
 $dm = new DataManager();
 
-$bs=$db->escapeString($_GET["bs"]);
-echo $dm->GetMinuteData($bs);
+$basestation=$_GET["bs"];
+
+
+
+echo "<br> Sekunde <br>";
+echo  $dm->GetSecondsData($basestation);
+
+echo "<br>Minute <br>";
+echo $dm->GetMinuteData($basestation);
+
+echo "<br>Sati <br>";
+echo  $dm->GetHourData($basestation);
+
 
 ?>
