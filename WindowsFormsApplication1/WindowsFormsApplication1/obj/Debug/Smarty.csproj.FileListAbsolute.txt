@@ -1,9 +1,0 @@
-C:\Users\Yokstrike\Documents\Projekt_test\Smarty_vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
-C:\Users\Yokstrike\Documents\Projekt_test\Smarty_vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
-C:\Users\Yokstrike\Documents\Projekt_test\Smarty_vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
-C:\Users\Yokstrike\Documents\Projekt_test\Smarty_vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
-C:\Users\Yokstrike\Documents\Projekt_test\Smarty_vs\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
-C:\Users\Yokstrike\Documents\Projekt_test\Smarty_vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Smarty.csprojResolveAssemblyReference.cache
-C:\Users\Yokstrike\Documents\Projekt_test\Smarty_vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmPrijava.resources
-C:\Users\Yokstrike\Documents\Projekt_test\Smarty_vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
-C:\Users\Yokstrike\Documents\Projekt_test\Smarty_vs\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Smarty.csproj.GenerateResource.Cache
