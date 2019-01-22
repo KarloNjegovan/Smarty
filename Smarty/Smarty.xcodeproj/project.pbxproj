@@ -14,6 +14,8 @@
 		D48F72992194B11F00E8DAE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48F72972194B11F00E8DAE9 /* LaunchScreen.storyboard */; };
 		D48F72A42194B11F00E8DAE9 /* SmartyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48F72A32194B11F00E8DAE9 /* SmartyTests.swift */; };
 		D48F72AF2194B11F00E8DAE9 /* SmartyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48F72AE2194B11F00E8DAE9 /* SmartyUITests.swift */; };
+		D4CF25DC21F67DBD00B30A61 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CF25DB21F67DBD00B30A61 /* SignInViewController.swift */; };
+		D4CF25DE21F685C300B30A61 /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CF25DD21F685C300B30A61 /* LoggedInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		D48F72AA2194B11F00E8DAE9 /* SmartyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D48F72AE2194B11F00E8DAE9 /* SmartyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartyUITests.swift; sourceTree = "<group>"; };
 		D48F72B02194B11F00E8DAE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4CF25DB21F67DBD00B30A61 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		D4CF25DD21F685C300B30A61 /* LoggedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				D48F72952194B11F00E8DAE9 /* Assets.xcassets */,
 				D48F72972194B11F00E8DAE9 /* LaunchScreen.storyboard */,
 				D48F729A2194B11F00E8DAE9 /* Info.plist */,
+				D4CF25DB21F67DBD00B30A61 /* SignInViewController.swift */,
+				D4CF25DD21F685C300B30A61 /* LoggedInViewController.swift */,
 			);
 			path = Smarty;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			files = (
 				D48F72912194B11E00E8DAE9 /* ViewController.swift in Sources */,
 				D48F728F2194B11E00E8DAE9 /* AppDelegate.swift in Sources */,
+				D4CF25DC21F67DBD00B30A61 /* SignInViewController.swift in Sources */,
+				D4CF25DE21F685C300B30A61 /* LoggedInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
