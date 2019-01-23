@@ -68,7 +68,6 @@
     <Compile Include="frmRegistracija.Designer.cs">
       <DependentUpon>frmRegistracija.cs</DependentUpon>
     </Compile>
-    <Compile Include="login_json.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmGlavna.resx">

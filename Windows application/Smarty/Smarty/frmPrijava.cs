@@ -12,28 +12,17 @@ namespace Smarty {
         }
 
         private void btnLogin_Click(object sender, EventArgs e) {
-            login_json json = new login_json();
             string username = txtUsername.Text.ToString();
             string password = txtPassword.Text.ToString();
-            string url = "https://mjerenje.info/services/login.php";
+
+            string url = "https://mjerenje.info/services/login.php?user=" + username + "&pass=" + password;
 
             using (WebClient client = new WebClient()) {
-                NameValueCollection postData = new NameValueCollection(){
-                    { "user", username },
-                    { "pass", password }
-                };
+                string pagesource = client.DownloadString(url);
 
-                richTextBox1.Text += username + "\n" + password + "\n";
-
-                byte[] responseBytes = client.UploadValues(url, "POST", postData);
-                string responsefromserver = Encoding.UTF8.GetString(responseBytes);
-                richTextBox1.Text += responsefromserver;
-
-                dynamic stuff = JObject.Parse(responsefromserver);
+                dynamic stuff = JObject.Parse(pagesource);
                 string message = stuff["message"].ToString();
                 string success = stuff["success"].ToString();
-
-                richTextBox1.Text += "\n" + message + "\n" + success;
 
                 if (success == "1") {
                     frmGlavna glavnaForma = new frmGlavna();
@@ -45,7 +34,6 @@ namespace Smarty {
                     MessageBox.Show("Greška kod prijave.");
                 }
             }
-
         }
 
         private void btnRegistracija_Click(object sender, EventArgs e) {
