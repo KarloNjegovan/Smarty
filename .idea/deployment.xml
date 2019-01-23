@@ -5,7 +5,7 @@
       <paths name="Smarty(mjerenje.info)">
         <serverdata>
           <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$/" web="/" />
+            <mapping deploy="/public_html" local="$PROJECT_DIR$/Servisi/public_html" web="/" />
           </mappings>
         </serverdata>
       </paths>

@@ -1,1 +1,0 @@
-{"timeout":0,"status":1,"statusmsg":"Ran adminbin Cpanel/ftp/LISTSTORE","exit_code":0,"data":[{"user":"mjerenje","type":"main","homedir":"/home/mjerenje"},{"homedir":"/etc/apache2/logs/domlogs/mjerenje","type":"logaccess","user":"mjerenje_logs"}],"error":0,"version":"2.4","mode":"simple","action":"fetch"}
