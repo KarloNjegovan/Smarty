@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -58,6 +62,13 @@
     <Compile Include="frmPrijava.Designer.cs">
       <DependentUpon>frmPrijava.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmRegistracija.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistracija.Designer.cs">
+      <DependentUpon>frmRegistracija.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login_json.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmGlavna.resx">
@@ -65,6 +76,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmPrijava.resx">
       <DependentUpon>frmPrijava.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistracija.resx">
+      <DependentUpon>frmRegistracija.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -75,6 +89,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
