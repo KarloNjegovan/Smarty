@@ -12,19 +12,24 @@ include "Database.php";
 
 $db = new Database();
 
-$username = $db->escapeString($_GET["user"]);
-$pass = $db->escapeString($_GET["pass"]);
+$username = filter_input(INPUT_GET, "user", FILTER_SANITIZE_STRING);
+$pass = filter_input(INPUT_GET, "pass", FILTER_SANITIZE_STRING);
 
-$result = $db ->executeQuery("SELECT * FROM `mjerenje_testAplikacija`.`Korisnik` WHERE kor_ime = '$username' and lozinka = '$pass'");
+$username = $db->escapeString($username);
+$pass = $db->escapeString($pass);
+
+
+$querry = "SELECT username FROM `User` WHERE username = '$username' and pass = '$pass'";
+$result = $db ->executeQuery($querry);
 $db->close();
+$json = array();
 
 if(mysqli_num_rows($result)>0){
-    echo  "Uspjesno logiranje";
+    $json = ["message"=>"Uspjesno logiranje", "success"=>1];
 }
 else{
-    echo "Neuspjeh";
+    $json = ["message"=>"Neuspjesna prijava", "success"=>0];
 }
-
-
+echo json_encode($json);
 
 ?>

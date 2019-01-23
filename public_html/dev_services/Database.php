@@ -10,7 +10,7 @@ class Database
 {
     const host = "localhost";
 
-    const base  = "mjerenje_testAplikacija";
+    const base  = "mjerenje_database";
     const user = "mjerenje";
     const pass = "lsXvv1GzW)9X";
 
