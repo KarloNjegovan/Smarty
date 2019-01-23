@@ -1,0 +1,45 @@
+# Modify this code to update the DB schema diagram.
+# URL: https://app.quickdatabasediagrams.com/#/d/pAbqbA
+# To reset the sample schema, replace everything with
+# two dots ('..' - without quotes).
+User
+-
+uuid PK varchar(128)
+username  varchar(64)
+pass  varchar(64)
+email varchar(64)
+token varchar(128)
+admin boolean 
+
+UserStation
+-
+usUuid PK varchar(128) FK >- User.uuid
+stUuid PK varchar(128) FK >- Station.uuid
+notifications boolean
+
+Station
+-
+uuid PK varchar(128)
+name varchar(64) INDEX
+location varchar(128) NULL
+temp float
+moist float
+deleted boolean
+
+Measurement
+-
+time PK int
+uuidSt PK varchar(128) FK >- Station.uuid
+temp float
+moist float
+alarming boolean
+deleted boolean
+
+HourAverage
+-
+time PK int 
+uuidSt PK varchar(128) FK >- Station.uuid
+avgTemp float
+avgMoist float
+alarming boolean
+deleted boolean
