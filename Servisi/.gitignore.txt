@@ -56,6 +56,23 @@ crashlytics.properties
 crashlytics-build.properties
 
 
+# Android studio 3.1+ serialized cache file
+.idea/caches/build_file_checksums.ser
+
+### PhpStorm Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# *.iml
+# modules.xml
+# .idea/misc.xml
+# *.ipr
+
+# Sonarlint plugin
+.idea/sonarlint
+
+# End of https://www.gitignore.io/api/phpstorm
+
+
 
 vendor/
 composer.lock
