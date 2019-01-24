@@ -31,7 +31,7 @@ import static java.security.AccessController.getContext;
 public class Podaci_grafovi extends AsyncTask<String, Void, String> {
 
 
-    private LineChart[] mCharts=new LineChart[4];
+    private LineChart[] mCharts=new LineChart[2];
     private int[] mColors=new int[]{
             Color.rgb(137, 236, 81), Color.rgb(240, 230, 30), Color.rgb(89, 199, 250),
             Color.rgb(250, 104, 119)
@@ -102,13 +102,11 @@ public class Podaci_grafovi extends AsyncTask<String, Void, String> {
         String bla= result.replaceAll("[|?*<\">+\\{\\}\\[\\]/]", "");
        View pogled1  = (View) ((Activity) con).findViewById(R.id.chart1);
         View pogled2  = (View) ((Activity) con).findViewById(R.id.chart2);
-        View pogled3  = (View) ((Activity) con).findViewById(R.id.chart3);
-        View pogled4  = (View) ((Activity) con).findViewById(R.id.chart4);
+
 
         mCharts[0]=(LineChart) pogled1;
         mCharts[1]=(LineChart) pogled2;
-        mCharts[2]=(LineChart) pogled3;
-        mCharts[3]=(LineChart) pogled4;
+
 
 
         for(int i=0; i<mCharts.length; i++){
@@ -133,16 +131,6 @@ public class Podaci_grafovi extends AsyncTask<String, Void, String> {
             }
         }
 
-
-        else if(brojGrafa==1){
-            int j=0;
-            for(int i=0; i<10; i++){
-
-                float val=(float) (Float.parseFloat(polje[i]));
-                yVals.add(new Entry(j, val));
-                j++;
-            }
-        }
         else{
             int j=0;
             for(int i=0; i<polje.length; i++){
