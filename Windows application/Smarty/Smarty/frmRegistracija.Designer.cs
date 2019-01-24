@@ -31,7 +31,6 @@
             this.btnZatvori = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label3
@@ -102,19 +101,11 @@
             this.txtEmail.Size = new System.Drawing.Size(150, 22);
             this.txtEmail.TabIndex = 12;
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(13, 149);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(450, 22);
-            this.textBox1.TabIndex = 13;
-            // 
             // frmRegistracija
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(475, 269);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnZatvori);
@@ -139,6 +130,5 @@
         private System.Windows.Forms.Button btnZatvori;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtEmail;
-        private System.Windows.Forms.TextBox textBox1;
     }
 }
