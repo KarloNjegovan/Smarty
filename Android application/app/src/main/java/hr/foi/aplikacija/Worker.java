@@ -35,9 +35,6 @@ public class Worker extends AsyncTask<String, Void, String> {
         String login_url="http://mjerenje.info/services/login.php?user="+user+"&pass="+pass;
         if(type.equals("login")){
             try {
-
-
-
                 URL url=new URL(login_url);
                 HttpURLConnection httpURLConnection=(HttpURLConnection)url.openConnection();
                 httpURLConnection.setRequestMethod("GET");
