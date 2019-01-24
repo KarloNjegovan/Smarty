@@ -30,7 +30,7 @@ namespace Smarty {
 
             using (client) {
                 string pagesource = client.DownloadString(url);
-
+                textBox1.Text = pagesource;
                 if (pagesource == "1") {
                     frmPrijava prijava = new frmPrijava();
                     this.Hide();
