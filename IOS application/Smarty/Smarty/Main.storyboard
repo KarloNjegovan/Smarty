@@ -68,19 +68,19 @@
             </objects>
             <point key="canvasLocation" x="-743" y="-18"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Measurement Table View Controller-->
         <scene sceneID="v3h-qz-ytl">
             <objects>
-                <tableViewController id="jYo-aS-YIk" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="180" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Aud-9F-61V">
+                <tableViewController id="jYo-aS-YIk" customClass="MeasurementTableViewController" customModule="Smarty" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" sectionIndexMinimumDisplayRowCount="3" rowHeight="180" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Aud-9F-61V">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="W1j-jF-eTf">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MeasurementTableViewCell" rowHeight="180" id="W1j-jF-eTf" customClass="MeasurementTableViewCell" customModule="Smarty" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="180"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="W1j-jF-eTf" id="O7I-hr-iII">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="center" preservesSuperviewLayoutMargins="YES" tableViewCell="W1j-jF-eTf" id="O7I-hr-iII">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="179.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
@@ -121,7 +121,14 @@
                                         </label>
                                     </subviews>
                                     <color key="backgroundColor" red="0.22783439729999999" green="0.44959666860000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <viewLayoutGuide key="safeArea" id="MvV-UU-oIB"/>
                                 </tableViewCellContentView>
+                                <viewLayoutGuide key="safeArea" id="d3b-8y-om9"/>
+                                <connections>
+                                    <outlet property="moist" destination="MV2-KQ-hsu" id="dB4-gx-NzY"/>
+                                    <outlet property="name" destination="C1e-td-9oi" id="21T-rv-qO8"/>
+                                    <outlet property="temp" destination="RwX-5c-0uw" id="4fW-Kr-0MR"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

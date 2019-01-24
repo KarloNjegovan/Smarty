@@ -10,6 +10,11 @@ import UIKit
 
 class MeasurementTableViewCell: UITableViewCell {
 
+    
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var temp: UILabel!
+    @IBOutlet weak var moist: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
