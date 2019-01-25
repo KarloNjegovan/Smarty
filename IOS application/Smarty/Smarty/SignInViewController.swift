@@ -21,6 +21,7 @@ class SignInViewController: UIViewController {
     @IBAction func loginButton(_ sender: Any) {
         let user = username.text
         let pass = password.text
+        
         if (user?.isEmpty)!||(pass?.isEmpty)! {
             throwError(msg: "Unesite korisnicko ime i lozinku!")
             return
@@ -32,33 +33,41 @@ class SignInViewController: UIViewController {
             loading.startAnimating()
         view.addSubview(loading)
         
-        let sURL = URL(string: "https://mjerenje.info/services/login.php")
+        let sURL = URL(string: "https://mjerenje.info/services/login.php?user="+user!+"&pass="+pass!)
         var request = URLRequest(url:sURL!)
-        request.httpMethod = "POST"
-        let postString = "user="+user!+"&pass="+pass!;
-        request.httpBody = postString.data(using: String.Encoding.utf8);
+        request.httpMethod = "GET"
         
         let task = URLSession.shared.dataTask(with: request) { (data: Data?, response: URLResponse?, error: Error?) in
+            self.stopActivityIndicator(activityIndicator: loading)
             if error != nil
             {
-                self.stopActivityIndicator(activityIndicator: loading)
                 self.throwError(msg: "Neuspjesan zahtjev, pokusajte ponovo")
                 print("error=\(String(describing: error))")
                 return
             }
-            
-            let authResponse = (String(data: data!, encoding: String.Encoding.utf8) ?? "Neuspjeh")
-            
-            if ((authResponse=="Neuspjeh")){
-                self.stopActivityIndicator(activityIndicator: loading)
-                self.throwError(msg: "Krivi podaci")
-                return
-            }
-            
-            DispatchQueue.main.async {
-                let singedIn = self.storyboard?.instantiateViewController(withIdentifier: "LoggedInViewController") as! LoggedInViewController
-                let appDelegate = UIApplication.shared.delegate
-                appDelegate?.window??.rootViewController = singedIn
+            if data != nil{
+                do {
+                    if let convertedJsonIntoDict = try JSONSerialization.jsonObject(with: data!, options:[]) as? NSDictionary {
+                        
+                        let success = convertedJsonIntoDict["success"] as? Int
+                        
+                        if success == 1
+                        {
+                            DispatchQueue.main.async {
+                                let singedIn = self.storyboard?.instantiateViewController(withIdentifier: "MeasurementTableViewController") as! MeasurementTableViewController
+                                let appDelegate = UIApplication.shared.delegate
+                                appDelegate?.window??.rootViewController = singedIn
+                            }
+                        }
+                        else{
+                            self.throwError(msg: "Krivi podaci")
+                            return
+                        }
+                    }
+                } catch let error as NSError {
+                    print(error.localizedDescription)
+                }
+               
             }
             
         }
@@ -83,7 +92,10 @@ class SignInViewController: UIViewController {
     }
     
     func stopActivityIndicator(activityIndicator: UIActivityIndicatorView){
-        activityIndicator.stopAnimating()
-        activityIndicator.removeFromSuperview()
+        DispatchQueue.main.async {
+            activityIndicator.stopAnimating()
+            activityIndicator.removeFromSuperview()
+        }
+
     }
 }

@@ -20,7 +20,7 @@ import java.net.URLEncoder;
 
 public class Worker extends AsyncTask<String, Void, String> {
     Context con;
-
+    String JSON_STRING;
     AlertDialog alertDialog;
     Worker(Context ctx){
         con=ctx;
@@ -30,34 +30,30 @@ public class Worker extends AsyncTask<String, Void, String> {
     @Override
     protected String doInBackground(String... params) {
         String type= params[0];
-        String login_url="http://mjerenje.info/services/login.php";
+        String user=params[1];
+        String pass=params[2];
+        String login_url="http://mjerenje.info/services/login.php?user="+user+"&pass="+pass;
         if(type.equals("login")){
             try {
-                String user=params[1];
-                String pass=params[2];
                 URL url=new URL(login_url);
                 HttpURLConnection httpURLConnection=(HttpURLConnection)url.openConnection();
-                httpURLConnection.setRequestMethod("POST");
+                httpURLConnection.setRequestMethod("GET");
                 httpURLConnection.setDoOutput(true);
                 httpURLConnection.setDoInput(true);
-                OutputStream outputStream =httpURLConnection.getOutputStream();
-                BufferedWriter bufferedWriter =new BufferedWriter(new OutputStreamWriter(outputStream,"UTF-8"));
-                String post_data= URLEncoder.encode("user", "UTF-8")+"="+URLEncoder.encode(user, "UTF-8")+"&"+URLEncoder.encode("pass", "UTF-8")+"="+URLEncoder.encode(pass, "UTF-8");
-                bufferedWriter.write(post_data);
-                bufferedWriter.flush();
-                bufferedWriter.close();
-                outputStream.close();
                 InputStream inputStream =httpURLConnection.getInputStream();
                 BufferedReader bufferedReader= new BufferedReader(new InputStreamReader(inputStream, "iso-8859-1"));
-                String result="";
-                String line="";
-                while((line = bufferedReader.readLine())!=null){
-                    result+=line;
+                StringBuilder stringBuilder=new StringBuilder();
+                while((JSON_STRING = bufferedReader.readLine())!=null){
+
+                    stringBuilder.append(JSON_STRING+"\n");
+
                 }
+
                 bufferedReader.close();
                 inputStream.close();
                 httpURLConnection.disconnect();
-                return result;
+                return stringBuilder.toString().trim();
+
 
             } catch (MalformedURLException e) {
                 e.printStackTrace();
@@ -71,21 +67,24 @@ public class Worker extends AsyncTask<String, Void, String> {
     @Override
     protected void onPreExecute() {
         alertDialog=new AlertDialog.Builder(con).create();
+
         alertDialog.setTitle("Login Status");
     }
 
     @Override
     protected void onPostExecute(String result) {
-        String n="Neuspjeh";
+        result = result.replaceAll("[^\\d.]", "");
+        result.toString();
+        if(result.equals("0")) {
+            alertDialog.setMessage("Neuspjeh");
+            alertDialog.show();
 
-  if(result!=n) {
-      Intent intent = new Intent(con, OdabirStanice.class);
-      con.startActivity(intent);
-  }
-  else{
-      alertDialog.setMessage(result);
-      alertDialog.show();
-  }
+        }
+        else{
+            Intent intent = new Intent(con, OdabirStanice.class);
+            con.startActivity(intent);
+
+        }
 
 
     }

@@ -10,16 +10,14 @@ $token = filter_input(INPUT_GET, "token", FILTER_SANITIZE_STRING);
 $unixF = filter_input(INPUT_GET, "unixF", FILTER_SANITIZE_NUMBER_INT);
 $unixT = filter_input(INPUT_GET, "unixT", FILTER_SANITIZE_NUMBER_INT);
 
-/*TODO list:
-1.provjeri korisnikov token
-2.pravo korisnika na stanicu
-3.dodati vremena u DataManager
-*/
-echo "<br> Sekunde <br>";
-echo  $dm->GetSecondsData($stationUuid);
+//TODO check token and user access rights
 
-echo "<br>Sati <br>";
-echo  $dm->GetHourData($stationUuid);
-
+if ($type==="min")
+{
+    echo  $dm->GetSecondsData($stationUuid, $unixF, $unixT);
+}elseif ($type==="hour")
+{
+    echo  $dm->GetHourData($stationUuid, $unixF, $unixT);
+}
 
 ?>

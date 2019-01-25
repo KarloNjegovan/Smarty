@@ -25,7 +25,7 @@ $db->close();
 $json = array();
 
 if(mysqli_num_rows($result)>0){
-    $json = ["message"=>"Uspjesno logiranje", "success"=>1];
+    $json = ["message"=>"Uspjesno logiranje", "success"=>1, "token"=>"random-String21_3"];
 }
 else{
     $json = ["message"=>"Neuspjesna prijava", "success"=>0];
