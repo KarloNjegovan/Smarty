@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Specialized;
 using System.Net;
 using System.Text;
@@ -13,18 +14,17 @@ namespace Smarty {
         private void btnLogin_Click(object sender, EventArgs e) {
             string username = txtUsername.Text.ToString();
             string password = txtPassword.Text.ToString();
-            string url = "https://mjerenje.info/services/login.php";
+
+            string url = "https://mjerenje.info/services/login.php?user=" + username + "&pass=" + password;
 
             using (WebClient client = new WebClient()) {
-                NameValueCollection postData = new NameValueCollection(){
-                    { "user", username },
-                    { "pass", password }
-                };
+                string pagesource = client.DownloadString(url);
 
-                byte[] responseBytes = client.UploadValues(url, "POST", postData);
-                string responsefromserver = Encoding.UTF8.GetString(responseBytes);
+                dynamic stuff = JObject.Parse(pagesource);
+                string message = stuff["message"].ToString();
+                string success = stuff["success"].ToString();
 
-                if(responsefromserver == "Uspjesno logiranje") {
+                if (success == "1") {
                     frmGlavna glavnaForma = new frmGlavna();
                     this.Hide();
                     glavnaForma.ShowDialog();
@@ -34,7 +34,13 @@ namespace Smarty {
                     MessageBox.Show("Greška kod prijave.");
                 }
             }
+        }
 
+        private void btnRegistracija_Click(object sender, EventArgs e) {
+            frmRegistracija reg = new frmRegistracija();
+            this.Hide();
+            reg.ShowDialog();
+            this.Show();
         }
     }
 }

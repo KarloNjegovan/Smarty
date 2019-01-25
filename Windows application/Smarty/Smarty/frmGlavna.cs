@@ -13,5 +13,26 @@ namespace Smarty {
         public frmGlavna() {
             InitializeComponent();
         }
+
+        private void btnObavijesti_Click(object sender, EventArgs e) {
+            frmObavijesti obavijest = new frmObavijesti();
+            this.Hide();
+            obavijest.ShowDialog();
+            this.Show();
+        }
+
+        private void btnGrafovi_Click(object sender, EventArgs e) {
+            frmGrafovi grafovi = new frmGrafovi();
+            this.Hide();
+            grafovi.ShowDialog();
+            this.Show();
+        }
+
+        private void btnKorisnici_Click(object sender, EventArgs e) {
+            frmKorisnici kor = new frmKorisnici();
+            this.Hide();
+            kor.ShowDialog();
+            this.Show();
+        }
     }
 }
