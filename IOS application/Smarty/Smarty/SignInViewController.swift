@@ -54,7 +54,7 @@ class SignInViewController: UIViewController {
                         if success == 1
                         {
                             DispatchQueue.main.async {
-                                let singedIn = self.storyboard?.instantiateViewController(withIdentifier: "MeasurementTableViewController") as! MeasurementTableViewController
+                                let singedIn = self.storyboard?.instantiateViewController(withIdentifier: "NaviController") as! UINavigationController
                                 let appDelegate = UIApplication.shared.delegate
                                 appDelegate?.window??.rootViewController = singedIn
                             }
