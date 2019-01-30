@@ -49,4 +49,35 @@ class Database
     {
         return mysqli_real_escape_string($this->connection, $string);
     }
+
+    //function returns false if there is existing row with same uuid within selected uuid type
+    function checkUuidExistence ($uuid, $type)
+    {
+        $query = "";
+        if($type == "user")
+        {
+            $query = "SELECT username FROM `User` WHERE uuid = '$uuid'  ;";
+        }
+        if($type == "station")
+        {
+            $query = "SELECT name FROM `Station` WHERE uuid = '$uuid'  ;";
+        }
+        if($type == "token")
+        {
+            $query = "SELECT username FROM `User` WHERE token = '$uuid' ; ";
+        }
+        $result = $this->executeQuery($query);
+        if(mysqli_num_rows($result)) {
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    function updateToken ($username, $token )
+    {
+        $query = "UPDATE `User` SET token = '$token' WHERE username ='$username' ;";
+        return $this->executeQuery($query);
+
+    }
 }
