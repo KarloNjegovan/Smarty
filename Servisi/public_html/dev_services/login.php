@@ -19,18 +19,16 @@ $pass = filter_input(INPUT_GET, "pass", FILTER_SANITIZE_STRING);
 $username = $db->escapeString($username);
 $pass = $db->escapeString($pass);
 
-
 $querry = "SELECT username FROM `User` WHERE username = '$username' and pass = '$pass'";
 $result = $db ->executeQuery($querry);
 
 $json = array();
 
 if(mysqli_num_rows($result)>0){
-    $token = guidv4(openssl_random_pseudo_bytes(16));
-    $exists = $db->checkUuidExistence($token,"token");
+    $exists = true;
     while ($exists == true)
     {
-        $token = guidv4(openssl_random_pseudo_bytes(16));
+        $token = guidv4(openssl_random_pseudo_bytes(16)); //generate new token
         $exists = $db->checkUuidExistence($token,"token");
     }
     $updated = $db->updateToken($username,$token);

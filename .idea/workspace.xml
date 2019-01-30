@@ -4,7 +4,6 @@
     <list default="true" id="35a53b9c-527d-4719-b5b7-cf258f6a3fa1" name="Default" comment="prepering new registration service and new uuid generating function">
       <change afterPath="$PROJECT_DIR$/Servisi/public_html/dev_services/registration.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Servisi/public_html/dev_services/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/Servisi/public_html/dev_services/Database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Servisi/public_html/dev_services/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Servisi/public_html/dev_services/login.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,20 +15,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gather.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gather.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/gather.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registration.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="registration.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/registration.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="339">
+              <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registracija.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;1678240e-1975-44f8-a107-b67d921589aa&gt;/public_html/services/registracija.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="138" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="138" />
             </state>
           </provider>
         </entry>
@@ -37,8 +45,8 @@
       <file leaf-file-name="Database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/Database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="79" column="14" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
+            <state relative-caret-position="543">
+              <caret line="81" column="5" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -46,8 +54,8 @@
       <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="36" column="74" selection-start-line="36" selection-start-column="74" selection-end-line="36" selection-end-column="74" />
+            <state relative-caret-position="339">
+              <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -87,10 +95,10 @@
         <option value="&lt;1678240e-1975-44f8-a107-b67d921589aa&gt;/public_html/services/registracija.php" />
         <option value="$PROJECT_DIR$/Servisi/public_html/services/registracija.php" />
         <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/custom_functions.php" />
-        <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/registration.php" />
         <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/Database.php" />
         <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/login.php" />
         <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/gather.php" />
+        <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/registration.php" />
       </list>
     </option>
   </component>
@@ -193,7 +201,7 @@
       <workItem from="1548404340151" duration="1805000" />
       <workItem from="1548422027181" duration="889000" />
       <workItem from="1548505181901" duration="619000" />
-      <workItem from="1548831400796" duration="5692000" />
+      <workItem from="1548831400796" duration="7444000" />
     </task>
     <task id="LOCAL-00001" summary="prepering new charts service">
       <created>1548275341429</created>
@@ -202,11 +210,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548275341429</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finished token generation, checkup and DB update on login">
+      <created>1548838129577</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548838129577</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17939000" />
+    <option name="totallyTimeSpent" value="19691000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -229,8 +244,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.26853147" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32867134" />
-      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.23925501" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15830946" />
+      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.23925501" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16547278" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -254,7 +269,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="prepering new charts service" />
     <MESSAGE value="prepering new registration service and new uuid generating function" />
-    <option name="LAST_COMMIT_MESSAGE" value="prepering new registration service and new uuid generating function" />
+    <MESSAGE value="finished token generation, checkup and DB update on login" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished token generation, checkup and DB update on login" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/gather.php">
@@ -384,20 +400,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Servisi/public_html/services/registracija.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Servisi/public_html/services/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/registration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -415,24 +421,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="79" column="14" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="36" column="74" selection-start-line="36" selection-start-column="74" selection-end-line="36" selection-end-column="74" />
+        <state relative-caret-position="339">
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/gather.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="81" column="5" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/services/registracija.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
         </state>
       </provider>
     </entry>
