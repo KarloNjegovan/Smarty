@@ -28,8 +28,6 @@ $token = $db->escapeString($token);
 $type = $db->escapeString($type);
 $isAdmin = $db->isAdmin($token);
 
-
-//TODO get new free uuid :$uuid ='' ;
 if ($isAdmin) //check if user with this token has rights to register
 {
     if ($type ==  "user")
@@ -37,15 +35,18 @@ if ($isAdmin) //check if user with this token has rights to register
         $user = $db->escapeString($user);
         $pass = $db->escapeString($pass);
         $email = $db->escapeString($email);
-        /*TODO list:
-        //check username and email availability
-        //get new uuid and check uuid existence
-        prepare INSERT
-        execute SQL and return msg + uuid of new user
-        */
+        //TODO 1.check username and email availability
+
+        while ($exists == true)     //get new uuid and check uuid existence
+        {
+            $newUuid = guidv4(openssl_random_pseudo_bytes(16)); //generate new token
+            $exists = $db->checkUuidExistence($newUuid,"user");
+        }
+        //TODO 3.prepare INSERT
+        //TODO 4.execute SQL and return msg + uuid of new user
+
         //$query = "INSERT INTO `User`(uuid, username, pass, email, admin, token) VALUES('$id', '$user', '$pass', '$email', $admin,  default)";
-        $user_uuid = guidv4(openssl_random_pseudo_bytes(16));
-        $json = ["message"=>"Uspiješna registracija koristnika","user_uuid"=>".$user_uuid.", "success"=>1];
+        $json = ["message"=>"Uspiješna registracija koristnika","user_uuid"=>".$newUuid.", "success"=>1];
     }elseif ( $type == "stat")
     {
         $name = $db->escapeString($name);
@@ -58,7 +59,7 @@ if ($isAdmin) //check if user with this token has rights to register
     }
 
 }else{
-
+    $json = ["message"=>"User don't have access right", "success"=>0];
 }
 
 $db->close();
