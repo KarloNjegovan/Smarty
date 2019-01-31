@@ -34,9 +34,10 @@ $email = $db->escapeString($email);//TODO add rest escapes
 $name = $db->escapeString($name);
 $location = $db->escapeString($location);
 
-//TODO set checkbox for registration admin acc $admin = 0;
-//TODO get new free uuid :$uuid ='' ;
 //TODO CHECK if user with this token has rights to register new user
+//TODO set checkbox for admin acc registration $admin = 0;
+//TODO get new free uuid :$uuid ='' ;
+
 if ($type ==  "user")
 {
     /*TODO list:

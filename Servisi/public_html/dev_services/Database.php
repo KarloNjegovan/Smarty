@@ -74,6 +74,13 @@ class Database
         }
     }
 
+    function getUserStations ($token)
+    {
+        $query = "SELECT us.stUuid FROM `User` u , `UserStation` us  WHERE u.token='$token' and  u.uuid=us.usUuid ;";
+        return $this->executeQuery($query);
+
+    }
+
     function updateToken ($username, $token )
     {
         $query = "UPDATE `User` SET token = '$token' WHERE username ='$username' ;";
