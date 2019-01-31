@@ -87,4 +87,16 @@ class Database
         return $this->executeQuery($query);
 
     }
+
+    function isAdmin ($token)
+    {
+        $query = "SELECT admin FROM `User` WHERE token = '$token'  ; ";
+        $adminResult =  $this->executeQuery($query);
+        if( mysqli_fetch_row($adminResult))
+        {
+            return true;
+        }else{
+            return false;
+        }
+    }
 }

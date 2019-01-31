@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35a53b9c-527d-4719-b5b7-cf258f6a3fa1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Servisi/public_html/dev_services/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/Servisi/public_html/dev_services/Database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Servisi/public_html/dev_services/charts.php" beforeDir="false" afterPath="$PROJECT_DIR$/Servisi/public_html/dev_services/charts.php" afterDir="false" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="charts.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/charts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="22" column="68" lean-forward="true" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+            <state relative-caret-position="323">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -38,8 +37,8 @@
       <file leaf-file-name="registration.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/registration.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="50" column="40" lean-forward="true" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+            <state relative-caret-position="339">
+              <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
               <folding>
                 <element signature="e#6#89#0#PHP" expanded="true" />
               </folding>
@@ -50,8 +49,8 @@
       <file leaf-file-name="Database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/Database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="78" column="117" selection-start-line="78" selection-start-column="117" selection-end-line="78" selection-end-column="117" />
+            <state relative-caret-position="461">
+              <caret line="99" column="9" lean-forward="true" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -92,9 +91,9 @@
         <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/custom_functions.php" />
         <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/login.php" />
         <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/gather.php" />
-        <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/registration.php" />
-        <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/Database.php" />
         <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/charts.php" />
+        <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/Database.php" />
+        <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/registration.php" />
       </list>
     </option>
   </component>
@@ -200,7 +199,7 @@
       <workItem from="1548505181901" duration="619000" />
       <workItem from="1548831400796" duration="9144000" />
       <workItem from="1548938753849" duration="1498000" />
-      <workItem from="1548940453492" duration="2228000" />
+      <workItem from="1548940453492" duration="2764000" />
     </task>
     <task id="LOCAL-00001" summary="prepering new charts service">
       <created>1548275341429</created>
@@ -223,11 +222,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548839646531</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="setting user rights for stations on charts data service">
+      <created>1548942724056</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1548942724056</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25117000" />
+    <option name="totallyTimeSpent" value="25653000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -277,7 +283,8 @@
     <MESSAGE value="finished token generation, checkup and DB update on login" />
     <MESSAGE value="prepering new registration service and new uuid generating function" />
     <MESSAGE value="prepering new registration service" />
-    <option name="LAST_COMMIT_MESSAGE" value="prepering new registration service" />
+    <MESSAGE value="setting user rights for stations on charts data service" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting user rights for stations on charts data service" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/gather.php">
@@ -526,24 +533,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/Database.php">
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/charts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="78" column="117" selection-start-line="78" selection-start-column="117" selection-end-line="78" selection-end-column="117" />
+        <state relative-caret-position="323">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/charts.php">
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/Database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="68" lean-forward="true" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+        <state relative-caret-position="461">
+          <caret line="99" column="9" lean-forward="true" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/registration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="50" column="40" lean-forward="true" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+        <state relative-caret-position="339">
+          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
           </folding>

@@ -10,13 +10,11 @@ $token = filter_input(INPUT_GET, "token", FILTER_SANITIZE_STRING);
 $unixF = filter_input(INPUT_GET, "unixF", FILTER_SANITIZE_NUMBER_INT);
 $unixT = filter_input(INPUT_GET, "unixT", FILTER_SANITIZE_NUMBER_INT);
 
-//TODO check token and user access rights
-
 $db = new Database();
 $stationsResult = $db->getUserStations($token);
-while ($stationUuids = mysqli_fetch_row($stationsResult)) //get all stations user has access to
+while ($currentUuid = mysqli_fetch_row($stationsResult)) //get all stations user has access to
 {
-    if ($stationUuid == $stationUuids[0]) //user has right to access that station
+    if ($stationUuid == $currentUuid[0]) //user has right to access that station
     {
         if ($type==="min")
         {
@@ -27,11 +25,6 @@ while ($stationUuids = mysqli_fetch_row($stationsResult)) //get all stations use
         }
     }
 }
-
-
-
-
-
-
+$db->close();
 
 ?>
