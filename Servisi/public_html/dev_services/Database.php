@@ -47,7 +47,8 @@ class Database
 
     function escapeString ($string)
     {
-        return mysqli_real_escape_string($this->connection, $string);
+        return $this->connection->escape_string($string);
+        //return mysqli_real_escape_string($this->connection, $string);
     }
 
     //function returns false if there is existing row with same uuid within selected uuid type

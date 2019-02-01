@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35a53b9c-527d-4719-b5b7-cf258f6a3fa1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Servisi/public_html/dev_services/custom_functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Servisi/public_html/dev_services/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/Servisi/public_html/dev_services/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servisi/public_html/dev_services/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Servisi/public_html/dev_services/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Servisi/public_html/dev_services/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/Servisi/public_html/dev_services/registration.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +38,8 @@
       <file leaf-file-name="registration.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/registration.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="48" column="29" lean-forward="true" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+            <state relative-caret-position="274">
+              <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
               <folding>
                 <element signature="e#6#89#0#PHP" expanded="true" />
               </folding>
@@ -48,8 +50,8 @@
       <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="30" column="9" selection-start-line="28" selection-start-column="3" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="203">
+              <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -57,8 +59,8 @@
       <file leaf-file-name="Database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/Database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="110" column="37" selection-start-line="110" selection-start-column="37" selection-end-line="110" selection-end-column="37" />
+            <state relative-caret-position="203">
+              <caret line="36" column="42" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -75,8 +77,8 @@
       <file leaf-file-name="custom_functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/custom_functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="187">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -97,10 +99,10 @@
         <option value="&lt;1678240e-1975-44f8-a107-b67d921589aa&gt;/public_html/services/registracija.php" />
         <option value="$PROJECT_DIR$/Servisi/public_html/services/registracija.php" />
         <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/custom_functions.php" />
-        <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/login.php" />
         <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/gather.php" />
         <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/charts.php" />
         <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/Database.php" />
+        <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/login.php" />
         <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/registration.php" />
       </list>
     </option>
@@ -208,7 +210,7 @@
       <workItem from="1548831400796" duration="9144000" />
       <workItem from="1548938753849" duration="1498000" />
       <workItem from="1548940453492" duration="4202000" />
-      <workItem from="1549015841088" duration="2055000" />
+      <workItem from="1549015841088" duration="7427000" />
     </task>
     <task id="LOCAL-00001" summary="prepering new charts service">
       <created>1548275341429</created>
@@ -252,11 +254,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548944767594</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="finishing user registration">
+      <created>1549017917894</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1549017917894</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29146000" />
+    <option name="totallyTimeSpent" value="34518000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -279,7 +288,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32867134" />
       <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.16260745" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15401146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13610315" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -309,7 +318,8 @@
     <MESSAGE value="setting user rights for stations on charts data service" />
     <MESSAGE value="minor refactoring and new isAdmin function for access rights on registration service" />
     <MESSAGE value="new user uuid generation and check for registration service" />
-    <option name="LAST_COMMIT_MESSAGE" value="new user uuid generation and check for registration service" />
+    <MESSAGE value="finishing user registration" />
+    <option name="LAST_COMMIT_MESSAGE" value="finishing user registration" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/gather.php">
@@ -596,31 +606,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="30" column="9" selection-start-line="28" selection-start-column="3" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/custom_functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/DataManager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="110" column="37" selection-start-line="110" selection-start-column="37" selection-end-line="110" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -631,10 +620,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/custom_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="36" column="42" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/registration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="48" column="29" lean-forward="true" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+        <state relative-caret-position="274">
+          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
           </folding>

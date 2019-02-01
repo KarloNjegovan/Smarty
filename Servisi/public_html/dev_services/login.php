@@ -19,8 +19,8 @@ $pass = filter_input(INPUT_GET, "pass", FILTER_SANITIZE_STRING);
 $username = $db->escapeString($username);
 $pass = $db->escapeString($pass);
 
-$querry = "SELECT username FROM `User` WHERE username = '$username' and pass = '$pass'";
-$result = $db ->executeQuery($querry);
+$query = "SELECT username FROM `User` WHERE username = '$username' and pass = '$pass'";
+$result = $db ->executeQuery($query);
 
 $json = array();
 
