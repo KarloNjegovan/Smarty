@@ -27,33 +27,52 @@ $humid = filter_input(INPUT_GET, "humid", FILTER_SANITIZE_NUMBER_FLOAT);
 $token = $db->escapeString($token);
 $type = $db->escapeString($type);
 $isAdmin = $db->isAdmin($token);
-
+$message = '';
 if ($isAdmin) //check if user with this token has rights to register
 {
     if ($type ==  "user")
     {
+        $exists = true;
         $user = $db->escapeString($user);
         $pass = $db->escapeString($pass);
         $email = $db->escapeString($email);
-        //TODO 1.check username and email availability
 
-        while ($exists == true)     //get new uuid and check uuid existence
+        //check pass length,username and email availability
+        if ($db->isAvailable($user,'username') != true)
         {
-            $newUuid = guidv4(openssl_random_pseudo_bytes(16)); //generate new token
-            $exists = $db->checkUuidExistence($newUuid,"user");
+            $message .= 'Username not available! ';
+        };
+        if ($db->isAvailable($email,'email') != true)
+        {
+            $message .= 'Email not available! ';
+        };
+        if(strlen($pass) < 8)
+        {
+            $message .= 'Pass not long enough! ';
         }
-        //TODO 3.prepare INSERT
-        //TODO 4.execute SQL and return msg + uuid of new user
 
-        //$query = "INSERT INTO `User`(uuid, username, pass, email, admin, token) VALUES('$id', '$user', '$pass', '$email', $admin,  default)";
-        $json = ["message"=>"Uspiješna registracija koristnika","user_uuid"=>".$newUuid.", "success"=>1];
+        if($message =='') //prepare values for INSERT
+        {
+            while ($exists == true)     //get new uuid and check uuid existence
+            {
+                $newUuid = guidv4(openssl_random_pseudo_bytes(16));
+                $exists = $db->checkUuidExistence($newUuid,"user");
+            }
+            //TODO 3.prepare INSERT
+            $query = "INSERT INTO `User`(uuid, username, pass, email, admin, token) VALUES('$newUuid', '$user', '$pass', '$email', 0, null)";
+            echo $query .'<br>';
+            //TODO 4.execute SQL and return msg + uuid of new user
+            $json = ["message"=>"$message","user_uuid"=>".$newUuid.", "success"=>1];
+        }else{
+            $json = ["message"=>"$message", "success"=>0];
+        }
     }elseif ( $type == "stat")
     {
         $name = $db->escapeString($name);
         $location = $db->escapeString($location);
         //TODO REGISTER STATION
         $station_uuid= "station_uuid";
-        $json = ["message"=>"Uspiješna registracija stanice","station_uuid"=>".$station_uuid.", "success"=>1];
+        $json = ["message"=>"Successful registration station registered","station_uuid"=>".$station_uuid.", "success"=>1];
     }else {
         $json = ["message"=>"Registration type wrong", "success"=>0];
     }

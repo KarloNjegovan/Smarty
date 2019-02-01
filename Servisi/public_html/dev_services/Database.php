@@ -99,4 +99,25 @@ class Database
             return false;
         }
     }
+
+    function isAvailable($string, $type)
+    {
+        if($type == "username")
+        {
+            $query = "SELECT username FROM `User` WHERE username = '$string'  ; ";
+        }elseif ($type = "email"){
+            $query = "SELECT username FROM `User` WHERE email = '$string'  ; ";
+        }else{
+            return "Error, wrong type!!";
+        }
+        echo $query. '<br>';
+        $result =  $this->executeQuery($query);
+        if( mysqli_fetch_row($result))
+        {
+            return false;
+        }else{
+            return true;
+        }
+    }
+
 }
