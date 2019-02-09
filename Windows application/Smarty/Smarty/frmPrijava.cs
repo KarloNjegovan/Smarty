@@ -20,6 +20,8 @@ namespace Smarty {
             using (WebClient client = new WebClient()) {
                 string pagesource = client.DownloadString(url);
 
+                MessageBox.Show(pagesource);
+
                 dynamic stuff = JObject.Parse(pagesource);
                 string message = stuff["message"].ToString();
                 string success = stuff["success"].ToString();

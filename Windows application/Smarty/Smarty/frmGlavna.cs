@@ -34,5 +34,12 @@ namespace Smarty {
             kor.ShowDialog();
             this.Show();
         }
+
+        private void btnRegStanica_Click(object sender, EventArgs e) {
+            frmRegistracijaStanica regStan = new frmRegistracijaStanica();
+            this.Hide();
+            regStan.ShowDialog();
+            this.Show();
+        }
     }
 }
