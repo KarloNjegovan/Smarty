@@ -15,9 +15,9 @@ namespace Smarty {
         }
 
         private void btnObavijesti_Click(object sender, EventArgs e) {
-            frmObavijesti obavijest = new frmObavijesti();
+            frmRegistracija reg = new frmRegistracija();
             this.Hide();
-            obavijest.ShowDialog();
+            reg.ShowDialog();
             this.Show();
         }
 

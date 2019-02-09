@@ -9,13 +9,14 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Newtonsoft.Json.Linq;
 
 namespace Smarty {
     public partial class frmRegistracija: Form {
         public frmRegistracija() {
             InitializeComponent();
         }
-
+        
         private void btnRegistriraj_Click(object sender, EventArgs e) {
             string username = txtKorIme.Text.ToString();
             string pass = txtLozinka.Text.ToString();
@@ -25,20 +26,22 @@ namespace Smarty {
             g = Guid.NewGuid();
             string uuid = g.ToString();
 
-            string url = "https://mjerenje.info/services/registracija.php?id=" + uuid + "&user=" + username + "&pass=" + pass + "&email=" + email;
-            WebClient client = new WebClient();
+            string url = "https://mjerenje.info/dev_services/registration.php?type=user" + "&token=" + User.token + "&user=" + username + "&pass=" + pass + "&email=" + email;
 
-            using (client) {
-                string pagesource = client.DownloadString(url);
+            MessageBox.Show(User.token);
 
-                if (pagesource == "1") {
-                    frmPrijava prijava = new frmPrijava();
-                    this.Hide();
-                    prijava.ShowDialog();
-                    this.Close();
+            using (WebClient client = new WebClient()) {
+                var pagesource = client.DownloadString(url);
+
+                dynamic stuff = JObject.Parse(pagesource);
+                string message = stuff["message"].ToString();
+                string success = stuff["success"].ToString();
+
+                if(success == "1") {
+                    MessageBox.Show(message);
                 }
                 else {
-                    MessageBox.Show("Greška kod registracije.");
+                    MessageBox.Show(message);
                 }
             }
         }
