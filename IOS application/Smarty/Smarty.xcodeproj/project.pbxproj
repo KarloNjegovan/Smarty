@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D46FA1172195E8F70045C914 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D46FA1162195E8F70045C914 /* Main.storyboard */; };
 		D48467DC21FA7A0500E97932 /* MeasurementTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48467DB21FA7A0500E97932 /* MeasurementTableViewController.swift */; };
+		D48467DE21FCB53500E97932 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48467DD21FCB53400E97932 /* DetailViewController.swift */; };
 		D48F728F2194B11E00E8DAE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48F728E2194B11E00E8DAE9 /* AppDelegate.swift */; };
 		D48F72912194B11E00E8DAE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48F72902194B11E00E8DAE9 /* ViewController.swift */; };
 		D48F72962194B11F00E8DAE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48F72952194B11F00E8DAE9 /* Assets.xcassets */; };
@@ -16,7 +17,6 @@
 		D48F72A42194B11F00E8DAE9 /* SmartyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48F72A32194B11F00E8DAE9 /* SmartyTests.swift */; };
 		D48F72AF2194B11F00E8DAE9 /* SmartyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48F72AE2194B11F00E8DAE9 /* SmartyUITests.swift */; };
 		D4CF25DC21F67DBD00B30A61 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CF25DB21F67DBD00B30A61 /* SignInViewController.swift */; };
-		D4CF25DE21F685C300B30A61 /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CF25DD21F685C300B30A61 /* LoggedInViewController.swift */; };
 		D4CF25E021F729C100B30A61 /* MainChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CF25DF21F729C100B30A61 /* MainChartViewController.swift */; };
 		D4CF264921FA662700B30A61 /* Measurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CF264821FA662700B30A61 /* Measurement.swift */; };
 		D4CF264D21FA6CF600B30A61 /* MeasurementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CF264C21FA6CF600B30A61 /* MeasurementTableViewCell.swift */; };
@@ -42,6 +42,7 @@
 /* Begin PBXFileReference section */
 		D46FA1162195E8F70045C914 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D48467DB21FA7A0500E97932 /* MeasurementTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementTableViewController.swift; sourceTree = "<group>"; };
+		D48467DD21FCB53400E97932 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		D48F728B2194B11E00E8DAE9 /* Smarty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smarty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D48F728E2194B11E00E8DAE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D48F72902194B11E00E8DAE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,7 +56,6 @@
 		D48F72AE2194B11F00E8DAE9 /* SmartyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartyUITests.swift; sourceTree = "<group>"; };
 		D48F72B02194B11F00E8DAE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4CF25DB21F67DBD00B30A61 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
-		D4CF25DD21F685C300B30A61 /* LoggedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
 		D4CF25DF21F729C100B30A61 /* MainChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainChartViewController.swift; sourceTree = "<group>"; };
 		D4CF264821FA662700B30A61 /* Measurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Measurement.swift; sourceTree = "<group>"; };
 		D4CF264C21FA6CF600B30A61 /* MeasurementTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementTableViewCell.swift; sourceTree = "<group>"; };
@@ -116,11 +116,11 @@
 				D48F72972194B11F00E8DAE9 /* LaunchScreen.storyboard */,
 				D48F729A2194B11F00E8DAE9 /* Info.plist */,
 				D4CF25DB21F67DBD00B30A61 /* SignInViewController.swift */,
-				D4CF25DD21F685C300B30A61 /* LoggedInViewController.swift */,
 				D4CF25DF21F729C100B30A61 /* MainChartViewController.swift */,
 				D4CF264821FA662700B30A61 /* Measurement.swift */,
 				D4CF264C21FA6CF600B30A61 /* MeasurementTableViewCell.swift */,
 				D48467DB21FA7A0500E97932 /* MeasurementTableViewController.swift */,
+				D48467DD21FCB53400E97932 /* DetailViewController.swift */,
 			);
 			path = Smarty;
 			sourceTree = "<group>";
@@ -281,7 +281,7 @@
 				D48467DC21FA7A0500E97932 /* MeasurementTableViewController.swift in Sources */,
 				D48F728F2194B11E00E8DAE9 /* AppDelegate.swift in Sources */,
 				D4CF25DC21F67DBD00B30A61 /* SignInViewController.swift in Sources */,
-				D4CF25DE21F685C300B30A61 /* LoggedInViewController.swift in Sources */,
+				D48467DE21FCB53500E97932 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

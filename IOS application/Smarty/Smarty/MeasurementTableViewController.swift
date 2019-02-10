@@ -37,6 +37,32 @@ class MeasurementTableViewController: UITableViewController {
         mes += [stat1,stat2,stat3]
         
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        super.prepare(for: segue, sender: sender)
+        
+        if (segue.identifier == "ShowDetail"){
+            
+        
+            guard let mesDetailViewController = segue.destination as? DetailViewController else {
+                fatalError("Unexpected destination: \(segue.destination)")
+            }
+            
+            guard let selectedMealCell = sender as? MeasurementTableViewCell else {
+                fatalError("Unexpected sender: \(sender)")
+            }
+            
+            guard let indexPath = tableView.indexPath(for: selectedMealCell) else {
+                fatalError("The selected cell is not being displayed by the table")
+            }
+            
+            let selectedMes = mes[indexPath.row]
+            mesDetailViewController.meas = selectedMes
+        }
+        
+    }
+
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
