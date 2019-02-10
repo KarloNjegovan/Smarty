@@ -1,191 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35a53b9c-527d-4719-b5b7-cf258f6a3fa1" name="Default" comment="Adapting">
-      <change beforePath="$PROJECT_DIR$/.bash_logout" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bash_profile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bashrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cagefs/var/run/cagefs/utmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cl.selector/defaults.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cl.selector/htaccess_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.contactemail" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cpanel/caches/config/_etc_cpanel_ea4_paths.conf___default_equal_space_seperated_config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cpanel/caches/config/_etc_trueuserowners___default_colon_with_one_space" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cpanel/caches/dynamicui/paper_lantern_en_.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cpanel/caches/filesys/~.stat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cpanel/caches/filesys/~home~mjerenje" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cpanel/caches/filesys/~home~mjerenje.stat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cpanel/caches/statcache_persistant" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cpanel/contactinfo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cpanel/datastore/AVAILABLE_APPLICATIONS_CACHE_en_paper_lantern" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cpanel/datastore/MOUNTS_CACHE__proc_mounts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cpanel/datastore/SYSTEMMIME" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cpanel/datastore/_bin_gem_environment_gempath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cpanel/datastore/_usr_bin_perl_-v" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cpanel/datastore/all_iplist.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cpanel/datastore/apache_FETCHHANDLERS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cpanel/datastore/apache_FETCHTYPES" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cpanel/datastore/ftp_LISTSTORE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cpanel/datastore/mysql-db-count" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cpanel/datastore/ports_GETSSHPORT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cpanel/datastore/reseller_SORTEDRESELLERSUSERS_mjerenje" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cpanel/datastore/ssl_FETCHINSTALLEDHOSTS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cpanel/email_accounts.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cpanel/nvdata.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cpanel/nvdata/CSSS_cpanel_domains" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cphorde/horde.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gemrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htpasswds/.cl.selector/defaults.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htpasswds/.cl.selector/htaccess_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htpasswds/.cpanel/caches/config/_etc_cpanel_ea4_paths.conf___default_equal_space_seperated_config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htpasswds/.cpanel/caches/config/_etc_trueuserowners___default_colon_with_one_space" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htpasswds/.cpanel/caches/dynamicui/paper_lantern_en_.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htpasswds/.cpanel/caches/filesys/~.stat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htpasswds/.cpanel/caches/filesys/~home~mjerenje" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htpasswds/.cpanel/caches/filesys/~home~mjerenje.stat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htpasswds/.cpanel/caches/statcache_persistant" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htpasswds/.cpanel/contactinfo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htpasswds/.cpanel/datastore/AVAILABLE_APPLICATIONS_CACHE_en_paper_lantern" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htpasswds/.cpanel/datastore/MOUNTS_CACHE__proc_mounts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htpasswds/.cpanel/datastore/SYSTEMMIME" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htpasswds/.cpanel/datastore/_bin_gem_environment_gempath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htpasswds/.cpanel/datastore/_usr_bin_perl_-v" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htpasswds/.cpanel/datastore/all_iplist.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htpasswds/.cpanel/datastore/apache_FETCHHANDLERS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htpasswds/.cpanel/datastore/apache_FETCHTYPES" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htpasswds/.cpanel/datastore/ftp_LISTSTORE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htpasswds/.cpanel/datastore/mysql-db-count" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htpasswds/.cpanel/datastore/ports_GETSSHPORT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htpasswds/.cpanel/datastore/reseller_SORTEDRESELLERSUSERS_mjerenje" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htpasswds/.cpanel/datastore/ssl_FETCHINSTALLEDHOSTS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htpasswds/.cpanel/email_accounts.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htpasswds/.cpanel/nvdata.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htpasswds/.cpanel/nvdata/CSSS_cpanel_domains" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htpasswds/.cphorde/horde.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+    <list default="true" id="35a53b9c-527d-4719-b5b7-cf258f6a3fa1" name="Default" comment="preparing service for gathering data from stations">
+      <change afterPath="$PROJECT_DIR$/Servisi/public_html/dev_services/gather.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.lastlogin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.softaculous/sitepad.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.softaculous/user.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.spamassassin/user_prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.spamassassinenable" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.trash/.trash_restore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.zshrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Servisi/public_html/dev_services/DataManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/Servisi/public_html/dev_services/DataManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Servisi/public_html/dev_services/charts.php" beforeDir="false" afterPath="$PROJECT_DIR$/Servisi/public_html/dev_services/charts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Servisi/public_html/dev_services/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Servisi/public_html/dev_services/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Servisi/public_html/services/DataManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/Servisi/public_html/services/DataManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Servisi/public_html/services/charts.php" beforeDir="false" afterPath="$PROJECT_DIR$/Servisi/public_html/services/charts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Servisi/public_html/services/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Servisi/public_html/services/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/cacheid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/ftpquota" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/mjerenje.info-Dec-2018.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/mjerenje.info-Jan-2019.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/mjerenje.info-ssl_log-Dec-2018.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/mjerenje.info-ssl_log-Jan-2019.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail/mailbox_format.cpanel" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dev_services/DataManager.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dev_services/Database.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dev_services/charts.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dev_services/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/services/DataManager.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/services/Database.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/services/charts.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/services/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssl/certs/login_mjerenje_info_d9f36_18b31_1578502406_4795c88ba01da7abaa70736515369fd1.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssl/certs/mjerenje_info_ca679_f6403_1576432327_219029e9dddf3a0110ade7eb0a71214e.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssl/certs/mjerenje_info_d7793_1eae7_1552694399_d9720206c64d6ff16feccb8739019674.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssl/keys/ca679_f6403_0c9cd501873ff47129d8daf885d040cd.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssl/keys/d7793_1eae7_e3e27e1488abd40c6c80159b1c517aa6.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssl/keys/d9f36_18b31_80f6f0a1614d4a06adeaf86e80acb653.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssl/ssl.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssl/ssl.db.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/awstats/awstats.mjerenje.info.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/awstats/awstats012019.mjerenje.info.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/awstats/awstats122018.mjerenje.info.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/awstats/ssl/awstats.mjerenje.info.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/awstats/ssl/awstats012019.mjerenje.info.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/awstats/ssl/awstats122018.mjerenje.info.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cpbandwidth/mjerenje.info-bytes_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/02/02493fb69d5d389f156bb42cf0a71d1b6b27b26073f7909d3fc0bfc88e10c3f6.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/03/03d1b476fd8ac937e7bd37ea325fd28c9d43477a4ce430da662404f8cd0e8b25.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/04/04bc4a4a01bc947a4f0d25592b8ee5037e9fb0bc7efc5d957599066e37b6055b.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/04/04f617c84de56ef48df693c57ec993a7c1a630be263e93859f1fe622faaa55c0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/08/087d810ac45bf13e016a801fdbb16519ae135ae8200564fae32bfd45a73ba969.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/0d/0d2c8f685c0794d2d52a21692e48e35c1f5b695b06e9b82b4aa614616e52ca76.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/0f/0f04b17cf0adfb261afa90877a074b4115c1cc32d268400a0ecc58a63175f9a1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/11/11da2534273815e17151fd5347f4d1f8030c5c7abbf657aa534392c6c5e1c8bb.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/12/12ce9186ff06f337886da1ecaaed715fa4fbc84f2a6d9aeb39624581c8af1e08.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/1e/1e1b461f2494e5bf04a82af61b8ff9c3a2d67cd7d59cb34fc153e46bcc5e5a4c.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/1e/1e9b57242bde07a48c6d767229152628f2d01ed2855dad84672dca56a193a084.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/25/25a8043b3b11022241e2f166c0464d8df4e19fd39e3e6f29bd0df70b86e5511a.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/2d/2d15d64d1da9d4ed88071fa20ebff837d91331e3785b87c948a697194a965435.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/36/36422087ce84e9fec9308d1da03ce46a15c79e4dcc4ffe167750a97321ecbd15.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/3c/3c829f4e463058c431d80abbe181c211f1739d23941d336997de41a131a61557.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/3e/3ec076b790b4749d9b9dbee19d75098135005f34bd5f65a5618375d72578c568.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/40/409bc72d8e4360a864621173ad8463350ee76493a80597de8510590501be2087.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/42/423ca53f9982a392426edb231ccee209f310fd4e3011931939ee88c1f57d1f90.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/4a/4a6782e2e638e10346d70c4e6e39ef340c1ebe0d41ac7eaea29ece08df14d5f8.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/4a/4a9802d50eadcb191c89d8cdff27de16da131c081e571adc9b7810ba82008bbb.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/50/501ab99b044e9ec898a9f77ba8f81b22aac435858bcd2f54b5624f346a8ae75b.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/54/54ac979914df0b2963f106c4796a40620dcacdb54a49d4c4a752f315e1dd1d44.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/59/59195ad8822c093d2c1cbc8411ab36e621499315a615c63b8ceca6a6e88b39e1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/5a/5a17e0063f47c21229bf2c7b06b20a6670dd7e5d8ec19dd87100f41e1d7238fa.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/5c/5c6f34c53f6f8838bfde8dabfe1f7f0d4bf4207b35ca06149541e88dcd411032.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/5e/5eb7cb0434e4f6f220103fa8ac50cec253de92cbb6871aeb7b49526e07a90bb0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/61/611eb7f7a38ba4835be168f6dd757c8403fe2834aaed9015ece835f43f4982fb.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/63/63b4d835e141d833cf3d0043fb7e1b9a5d88df514c89bf6b04086b209cfd91ef.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/64/641ebfc91131b591eee07ef2175c9df7f441a4553b862a81b0d35ccf66ebc145.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/67/67039fd30dd195581b0b9ffdcf6b9995b611b97431927109d7214cb8e42ed919.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/68/682edcfe216581ccab2c6911295718e28e533c9d8e97de9640396e27f51c075f.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/68/68626ecee8ca5f454b972a9cfbaa173fae366b595eefec4e21ffb6460c65b04c.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/6b/6b3b2f54ea6f4814350bfbacc7de99c75312780b5aa181ad403f6c6c4cea1b3b.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/73/731ce8dc5e63acb981a917e3e192b2df1109d6f1da7c68f2fed95a4d2411cdc3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/7f/7f86b0911ff22a004a375d89914c19ef9d07a58dbdd095bb105055735d24943e.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/86/86550fa3c18d5f22ccc3fa52ade0ab5ca96905c34302db25b05792c720deb5b6.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/88/88fa7705d0fd7a2631d49623c73bcfa73d4eb94f3b6fd284b48d58d4c2e37fb8.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/89/89577adeab0b59880c85a60ee3e5103cb0eef8e71d2111c1f11cb65f247c2635.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/8e/8ec5048e7feeccefd65464003738a593aed33cf423b10b4b55c9415b6d4b611e.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/95/9546a034d341ab5b7e1336aee53c9b3b46e5f8b15f37753d6dc073d9d3aed9b4.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/9b/9b516d90b1804fdb3e9bbe11c75dd580d1a32456e9a1941aebbb0029fdb2e81b.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/9f/9f2b0868c0ee3bdb8fbcdba6e363515596d67849ea34a2ad71b70607edbb2a33.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/a3/a3a9e57b00e89b36aa67c1576d31c35fa5d0847faf3de51110e46e881aee393c.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/a4/a4d1ef2fb57cfb167b0c66b43fc93cd43378c52345880fce7e98036bf4f29bf5.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/a8/a89a9c056f1de76afb0103920538de427acd094a68e09c6ba9533a4b92801ddc.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/a9/a9b6a3e19deb8ba56bb9e579d92aa9c24a6d83a831796e4dd2e9e7af5c51474e.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/af/af6af09245b6c0b2851cf91bd25af7cebfe9797d260fa7cc4335ab20f9b3aacb.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/b3/b32f8f1afb83a57310ac8061dbbba30fdc76c6f3e328d1980d2bf6896a1616e9.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/b3/b3a7de508e866606e6b1a01483395b3b5d5f2e32c03d3e38c157ff94b4279350.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/b4/b4e0f24402a3df8214fe7496e0a5dfa6050e596a11bdbd5d7f1b5e165cce1a3a.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/b9/b9ce7745def818722143a934db2daed2af604a1bf8fb3af84d76f85e5f7e4cb9.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/ba/baac82815d6e45dde565a5232c86fddb501004d0855c31381257e419e482f2a8.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/bd/bd4f5b1a32b1e3b2fe92f3e7956b65edbe7bf6c3cfdc1b0eb959356ecd506a27.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/bd/bdcaed00c3c6448357c40fef93985bd41f3d4fdb438a8c3ff2a5fbed21d85ced.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/c1/c1c7f15f4291f12564537f63dca3fa0f4efad37351106f93c498ed22bcf33ceb.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/c7/c7227a9ad6b19e1c20f405b3654359cf348caf7c28e64d49904a026aa1f0c0dc.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/ca/caa3c952b4d96daf4f0ccba95c71fbff3229c2a4b5c285082b790cae787247ba.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/cb/cbfa431bce8f3e45ba157e9cec838d9b4c3d206d7e6433892f8ed3d4707b7716.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/d2/d292074456cc49b63933f34078bdc1ddd5256dc5878d3712b714b4bc9c7f2ee2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/da/da5faad51525a1133244ca1a3edc0bc82c2c9e9133aef71430c27a09ba2a1a04.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/db/db3851e295b134c4efe0221175b5b99e88aef8edfa85554e79cdf282db90a6eb.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/dc/dcb1b92f67d6bf6e5f3a44a0e57d9decd7ea281ba568f2c35c166919f97361d3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/dd/dda84dcd676cb0fa9f2777143d631e0162d69161147301ca5c51f4df1bfcbab2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/df/df0172cde44b84cf3bb4d6a757bec0dca561e333c6f247e8485b9ba818b9a861.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/e1/e194a11f792a081133cb0de57d5ae99da17149d013b87fdfbd4a45ac7725d0a9.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/e6/e693301c5c13a80dc33cc2d26d1fabd94555958f3492fb869c90dd86f8879fee.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/e8/e8e5b4e625ef790f6d812e47b4714bf8bc503f3dc21095d46f25c8d8ac3269f1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/e9/e9aacb4691b955a51e52ca8091fcf76e7fd7cf49d2620136e725352a50b74871.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/ea/ea9f396500b9112266ed5e4cbacdfa87316f8708418ee986c895a639a2628166.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/f1/f11409a83c58e4f26edd3dd4bd53dad86bb44bc6b3eb38ef496913122b139b14.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/f7/f75a2caa666af56d8e3ad6eb31e80152b92ca4d66f9d9820bb059b1df8bda4a7.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pma_template_compiles_mjerenje/twig/f8/f88048adc3287808d2f2c2d433c51b424303e4569f179befea1a9a5d502e878d.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/sess_6e66788c878fe1f0e2cb8159204d2eb7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/sess_9d88624f03edd8b8fd3352d902f55b32" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/sess_9i75qa7pdp2vspbpbluer2ae8o1079td" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/sess_c6d5593ea0027a5019820490f3866ab2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentacija/Tehnicka dokumentacija/1809 TD Smarty - Marta Fiorencis, Matija Lješčanin, Enis Novak, Karlo Njegovan.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentacija/Tehnicka dokumentacija/1809 TD Smarty - Marta Fiorencis, Matija Lješčanin, Enis Novak, Karlo Njegovan.docx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -195,21 +14,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="gather.php" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="gather.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/gather.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="119">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Servisi/public_html/services/login.php">
+      <file leaf-file-name="charts.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/charts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+            <state relative-caret-position="323">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registration.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/registration.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="24" selection-start-line="24" selection-end-line="28" />
+              <folding>
+                <element signature="e#6#89#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -217,8 +48,26 @@
       <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" lean-forward="true" selection-end-line="34" selection-end-column="2" />
+            <state relative-caret-position="105">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/DataManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom_functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/custom_functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -232,12 +81,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Servisi/public_html/test" />
-        <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/login.php" />
-        <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/charts.php" />
         <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/DataManager.php" />
         <option value="$PROJECT_DIR$/Servisi/public_html/services/DataManager.php" />
         <option value="$PROJECT_DIR$/Servisi/public_html/services/charts.php" />
         <option value="$PROJECT_DIR$/Servisi/public_html/services/login.php" />
+        <option value="&lt;1678240e-1975-44f8-a107-b67d921589aa&gt;/public_html/services/registracija.php" />
+        <option value="$PROJECT_DIR$/Servisi/public_html/services/registracija.php" />
+        <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/custom_functions.php" />
+        <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/charts.php" />
+        <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/Database.php" />
+        <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/registration.php" />
+        <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/login.php" />
+        <option value="$PROJECT_DIR$/Servisi/public_html/dev_services/gather.php" />
       </list>
     </option>
   </component>
@@ -253,17 +108,17 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-80" />
-    <option name="y" value="-10" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1364" />
+    <option name="height" value="867" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -300,7 +155,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,7 +164,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Servisi/public_html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Jame" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -336,12 +190,85 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548260463411</updated>
-      <workItem from="1548260466768" duration="6592000" />
+      <workItem from="1548260466768" duration="7449000" />
+      <workItem from="1548337309198" duration="1485000" />
+      <workItem from="1548404340151" duration="1805000" />
+      <workItem from="1548422027181" duration="889000" />
+      <workItem from="1548505181901" duration="619000" />
+      <workItem from="1548831400796" duration="9144000" />
+      <workItem from="1548938753849" duration="1498000" />
+      <workItem from="1548940453492" duration="4202000" />
+      <workItem from="1549015841088" duration="8285000" />
+      <workItem from="1549093542576" duration="3413000" />
     </task>
+    <task id="LOCAL-00001" summary="prepering new charts service">
+      <created>1548275341429</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548275341429</updated>
+    </task>
+    <task id="LOCAL-00002" summary="finished token generation, checkup and DB update on login">
+      <created>1548838129577</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548838129577</updated>
+    </task>
+    <task id="LOCAL-00003" summary="prepering new registration service">
+      <created>1548839646531</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548839646531</updated>
+    </task>
+    <task id="LOCAL-00004" summary="setting user rights for stations on charts data service">
+      <created>1548942724056</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1548942724056</updated>
+    </task>
+    <task id="LOCAL-00005" summary="minor refactoring and new isAdmin function for access rights on registration service">
+      <created>1548943489832</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1548943489832</updated>
+    </task>
+    <task id="LOCAL-00006" summary="new user uuid generation and check for registration service">
+      <created>1548944767594</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1548944767594</updated>
+    </task>
+    <task id="LOCAL-00007" summary="finishing user registration">
+      <created>1549017917894</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1549017917894</updated>
+    </task>
+    <task id="LOCAL-00008" summary="finishing station registration">
+      <created>1549024325492</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1549024325493</updated>
+    </task>
+    <task id="LOCAL-00009" summary="preparing service for gathering data from stations">
+      <created>1549103448029</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1549103448029</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6592000" />
+    <option name="totallyTimeSpent" value="38789000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -353,29 +280,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-7" y="0" width="1364" height="867" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32867134" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="File Transfer" visible="true" weight="0.26013985" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.19546743" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" order="7" weight="0.22096318" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.26853147" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32867134" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32867134" />
-      <window_info anchor="right" id="Remote Host" visible="true" weight="0.11174785" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16690545" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32867134" />
+      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.1357362" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16717792" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,46 +313,281 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="prepering new charts service" />
+    <MESSAGE value="finished token generation, checkup and DB update on login" />
+    <MESSAGE value="prepering new registration service and new uuid generating function" />
+    <MESSAGE value="prepering new registration service" />
+    <MESSAGE value="setting user rights for stations on charts data service" />
+    <MESSAGE value="minor refactoring and new isAdmin function for access rights on registration service" />
+    <MESSAGE value="new user uuid generation and check for registration service" />
+    <MESSAGE value="finishing user registration" />
+    <MESSAGE value="finishing station registration" />
+    <MESSAGE value="preparing service for gathering data from stations" />
+    <option name="LAST_COMMIT_MESSAGE" value="preparing service for gathering data from stations" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Servisi/public_html/test">
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="36" column="42" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/DataManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/custom_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/gather.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/charts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="30" column="9" selection-start-line="28" selection-start-column="3" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="56" column="25" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/DataManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/custom_functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/gather.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/DataManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/custom_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/charts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/gather.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="81" column="5" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/DataManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/custom_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/gather.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Servisi/public_html/services/DataManager.php">
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/services/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        <state relative-caret-position="459">
+          <caret line="27" column="88" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="88" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/DataManager.php">
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="38" column="57" selection-end-line="49" selection-end-column="1" />
+        <state relative-caret-position="323">
+          <caret line="19" selection-end-line="34" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Servisi/public_html/services/charts.php">
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/gather.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="102">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/charts.php">
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/services/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="88" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="18" lean-forward="true" selection-end-line="26" selection-end-column="2" />
+          <caret line="19" selection-end-line="34" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/gather.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/services/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="88" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" selection-end-line="34" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/gather.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/services/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" selection-end-line="34" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/gather.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -436,8 +600,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Servisi/public_html/services/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/test" />
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/services/charts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/services/registracija.php" />
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/services/DataManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/services/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="30" column="60" lean-forward="true" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/charts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/DataManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="50" column="58" lean-forward="true" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/custom_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" selection-start-line="24" selection-end-line="28" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servisi/public_html/dev_services/gather.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
     </entry>

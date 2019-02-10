@@ -9,6 +9,7 @@
  */
 
 include "Database.php";
+include "custom_functions.php";
 
 $db = new Database();
 
@@ -18,18 +19,25 @@ $pass = filter_input(INPUT_GET, "pass", FILTER_SANITIZE_STRING);
 $username = $db->escapeString($username);
 $pass = $db->escapeString($pass);
 
+$query = "SELECT username FROM `User` WHERE username = '$username' and pass = '$pass'";
+$result = $db ->executeQuery($query);
 
-$querry = "SELECT username FROM `User` WHERE username = '$username' and pass = '$pass'";
-$result = $db ->executeQuery($querry);
-$db->close();
 $json = array();
 
 if(mysqli_num_rows($result)>0){
-    $json = ["message"=>"Uspjesno logiranje", "success"=>1, "token"=>"random-String21_3"];
+    $exists = true;
+    while ($exists == true)
+    {
+        $token = guidv4(openssl_random_pseudo_bytes(16)); //generate new token
+        $exists = $db->checkUuidExistence($token,"token");
+    }
+    $updated = $db->updateToken($username,$token);
+    $json = ["message"=>"Uspjesna prijava", "success"=>1, "token"=>"$token", "token_updated"=>$updated ];
 }
 else{
     $json = ["message"=>"Neuspjesna prijava", "success"=>0];
 }
-echo json_encode($json);
 
+$db->close();
+echo json_encode($json);
 ?>

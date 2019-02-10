@@ -10,18 +10,21 @@ $token = filter_input(INPUT_GET, "token", FILTER_SANITIZE_STRING);
 $unixF = filter_input(INPUT_GET, "unixF", FILTER_SANITIZE_NUMBER_INT);
 $unixT = filter_input(INPUT_GET, "unixT", FILTER_SANITIZE_NUMBER_INT);
 
-//TODO check token and user access rights
-
-if ($type==="min")
+$db = new Database();
+$stationsResult = $db->getUserStations($token);
+while ($currentUuid = mysqli_fetch_row($stationsResult)) //get all stations user has access to
 {
-    echo  $dm->GetSecondsData($stationUuid, $unixF, $unixT);
-}elseif ($type==="hour")
-{
-    echo  $dm->GetHourData($stationUuid, $unixF, $unixT);
+    if ($stationUuid == $currentUuid[0]) //user has right to access that station
+    {
+        if ($type==="min")
+        {
+            echo  $dm->GetSecondsData($stationUuid, $unixF, $unixT);
+        }elseif ($type==="hour")
+        {
+            echo  $dm->GetHourData($stationUuid, $unixF, $unixT);
+        }
+    }
 }
-
-
-
-
+$db->close();
 
 ?>
