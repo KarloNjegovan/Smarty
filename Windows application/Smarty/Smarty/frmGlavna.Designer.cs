@@ -23,24 +23,24 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.btnObavijesti = new System.Windows.Forms.Button();
+            this.btnRegistracijaKor = new System.Windows.Forms.Button();
             this.btnGrafovi = new System.Windows.Forms.Button();
-            this.btnKorisnici = new System.Windows.Forms.Button();
+            this.btnRegStanica = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnObavijesti
+            // btnRegistracijaKor
             // 
-            this.btnObavijesti.Location = new System.Drawing.Point(139, 69);
-            this.btnObavijesti.Name = "btnObavijesti";
-            this.btnObavijesti.Size = new System.Drawing.Size(130, 30);
-            this.btnObavijesti.TabIndex = 0;
-            this.btnObavijesti.Text = "Obavijesti";
-            this.btnObavijesti.UseVisualStyleBackColor = true;
-            this.btnObavijesti.Click += new System.EventHandler(this.btnObavijesti_Click);
+            this.btnRegistracijaKor.Location = new System.Drawing.Point(115, 68);
+            this.btnRegistracijaKor.Name = "btnRegistracijaKor";
+            this.btnRegistracijaKor.Size = new System.Drawing.Size(184, 30);
+            this.btnRegistracijaKor.TabIndex = 0;
+            this.btnRegistracijaKor.Text = "Registracija korisnika";
+            this.btnRegistracijaKor.UseVisualStyleBackColor = true;
+            this.btnRegistracijaKor.Click += new System.EventHandler(this.btnObavijesti_Click);
             // 
             // btnGrafovi
             // 
-            this.btnGrafovi.Location = new System.Drawing.Point(139, 132);
+            this.btnGrafovi.Location = new System.Drawing.Point(139, 182);
             this.btnGrafovi.Name = "btnGrafovi";
             this.btnGrafovi.Size = new System.Drawing.Size(130, 30);
             this.btnGrafovi.TabIndex = 1;
@@ -48,24 +48,24 @@
             this.btnGrafovi.UseVisualStyleBackColor = true;
             this.btnGrafovi.Click += new System.EventHandler(this.btnGrafovi_Click);
             // 
-            // btnKorisnici
+            // btnRegStanica
             // 
-            this.btnKorisnici.Location = new System.Drawing.Point(139, 198);
-            this.btnKorisnici.Name = "btnKorisnici";
-            this.btnKorisnici.Size = new System.Drawing.Size(130, 30);
-            this.btnKorisnici.TabIndex = 2;
-            this.btnKorisnici.Text = "Korisnici";
-            this.btnKorisnici.UseVisualStyleBackColor = true;
-            this.btnKorisnici.Click += new System.EventHandler(this.btnKorisnici_Click);
+            this.btnRegStanica.Location = new System.Drawing.Point(115, 122);
+            this.btnRegStanica.Name = "btnRegStanica";
+            this.btnRegStanica.Size = new System.Drawing.Size(184, 30);
+            this.btnRegStanica.TabIndex = 3;
+            this.btnRegStanica.Text = "Registracija stanica";
+            this.btnRegStanica.UseVisualStyleBackColor = true;
+            this.btnRegStanica.Click += new System.EventHandler(this.btnRegStanica_Click);
             // 
             // frmGlavna
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(417, 339);
-            this.Controls.Add(this.btnKorisnici);
+            this.Controls.Add(this.btnRegStanica);
             this.Controls.Add(this.btnGrafovi);
-            this.Controls.Add(this.btnObavijesti);
+            this.Controls.Add(this.btnRegistracijaKor);
             this.Name = "frmGlavna";
             this.Text = "frmGlavna";
             this.ResumeLayout(false);
@@ -74,8 +74,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnObavijesti;
+        private System.Windows.Forms.Button btnRegistracijaKor;
         private System.Windows.Forms.Button btnGrafovi;
-        private System.Windows.Forms.Button btnKorisnici;
+        private System.Windows.Forms.Button btnRegStanica;
     }
 }

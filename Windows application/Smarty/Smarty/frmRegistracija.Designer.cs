@@ -71,7 +71,7 @@
             this.btnRegistriraj.Name = "btnRegistriraj";
             this.btnRegistriraj.Size = new System.Drawing.Size(130, 30);
             this.btnRegistriraj.TabIndex = 8;
-            this.btnRegistriraj.Text = "Registriraj me";
+            this.btnRegistriraj.Text = "Registriraj";
             this.btnRegistriraj.UseVisualStyleBackColor = true;
             this.btnRegistriraj.Click += new System.EventHandler(this.btnRegistriraj_Click);
             // 

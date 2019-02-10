@@ -12,3 +12,5 @@ C:\Users\Yokstrike\Documents\Projekt_test\Smarty_VS\Smarty\Smarty\obj\Debug\Smar
 C:\Users\Yokstrike\Documents\Projekt_test\Smarty_VS\Smarty\Smarty\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Yokstrike\Documents\Projekt_test\Smarty_VS\Smarty\Smarty\bin\Debug\Newtonsoft.Json.pdb
 C:\Users\Yokstrike\Documents\Projekt_test\Smarty_VS\Smarty\Smarty\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Yokstrike\Documents\Projekt_test\Smarty_VS\Smarty\Smarty\obj\Debug\Smarty.frmGrafovi.resources
+C:\Users\Yokstrike\Documents\Projekt_test\Smarty_VS\Smarty\Smarty\obj\Debug\Smarty.frmRegistracijaStanica.resources
