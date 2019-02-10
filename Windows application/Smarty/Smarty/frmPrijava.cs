@@ -20,14 +20,10 @@ namespace Smarty {
             using (WebClient client = new WebClient()) {
                 string pagesource = client.DownloadString(url);
 
-                MessageBox.Show(pagesource);
-
                 dynamic stuff = JObject.Parse(pagesource);
                 string message = stuff["message"].ToString();
                 string success = stuff["success"].ToString();
                 User.token = stuff["token"].ToString();
-
-                MessageBox.Show(User.token);
 
                 if (success == "1") {
                     frmGlavna glavnaForma = new frmGlavna();

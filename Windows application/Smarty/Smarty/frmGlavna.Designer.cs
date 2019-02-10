@@ -25,7 +25,6 @@
         private void InitializeComponent() {
             this.btnRegistracijaKor = new System.Windows.Forms.Button();
             this.btnGrafovi = new System.Windows.Forms.Button();
-            this.btnKorisnici = new System.Windows.Forms.Button();
             this.btnRegStanica = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -49,16 +48,6 @@
             this.btnGrafovi.UseVisualStyleBackColor = true;
             this.btnGrafovi.Click += new System.EventHandler(this.btnGrafovi_Click);
             // 
-            // btnKorisnici
-            // 
-            this.btnKorisnici.Location = new System.Drawing.Point(139, 234);
-            this.btnKorisnici.Name = "btnKorisnici";
-            this.btnKorisnici.Size = new System.Drawing.Size(130, 30);
-            this.btnKorisnici.TabIndex = 2;
-            this.btnKorisnici.Text = "Korisnici";
-            this.btnKorisnici.UseVisualStyleBackColor = true;
-            this.btnKorisnici.Click += new System.EventHandler(this.btnKorisnici_Click);
-            // 
             // btnRegStanica
             // 
             this.btnRegStanica.Location = new System.Drawing.Point(115, 122);
@@ -75,7 +64,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(417, 339);
             this.Controls.Add(this.btnRegStanica);
-            this.Controls.Add(this.btnKorisnici);
             this.Controls.Add(this.btnGrafovi);
             this.Controls.Add(this.btnRegistracijaKor);
             this.Name = "frmGlavna";
@@ -88,7 +76,6 @@
 
         private System.Windows.Forms.Button btnRegistracijaKor;
         private System.Windows.Forms.Button btnGrafovi;
-        private System.Windows.Forms.Button btnKorisnici;
         private System.Windows.Forms.Button btnRegStanica;
     }
 }

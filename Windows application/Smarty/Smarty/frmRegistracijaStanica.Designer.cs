@@ -26,7 +26,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnRegistriraj = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.txtIme = new System.Windows.Forms.TextBox();
             this.txtLokacija = new System.Windows.Forms.TextBox();
             this.txtTemp = new System.Windows.Forms.TextBox();
@@ -62,15 +61,6 @@
             this.btnRegistriraj.Text = "Registriraj stanicu";
             this.btnRegistriraj.UseVisualStyleBackColor = true;
             this.btnRegistriraj.Click += new System.EventHandler(this.btnRegistriraj_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(198, 255);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(130, 30);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // txtIme
             // 
@@ -129,7 +119,6 @@
             this.Controls.Add(this.txtTemp);
             this.Controls.Add(this.txtLokacija);
             this.Controls.Add(this.txtIme);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.btnRegistriraj);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -145,7 +134,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnRegistriraj;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox txtIme;
         private System.Windows.Forms.TextBox txtLokacija;
         private System.Windows.Forms.TextBox txtTemp;

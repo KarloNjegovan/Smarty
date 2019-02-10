@@ -22,14 +22,15 @@ namespace Smarty {
             string location = txtLokacija.Text.ToString();
             string temp = txtTemp.Text.ToString();
             string humid = txtHumid.Text.ToString();
+            string type = "station";
 
             Guid g;
             g = Guid.NewGuid();
             string uuid = g.ToString();
 
-            string url = "https://mjerenje.info/dev_services/registration.php?type=user" + "&token=" + User.token + "&name=" + name + "&location=" + location + "&temp" + temp + "&humid" + humid;
+            string url = "https://mjerenje.info/dev_services/registration.php?token=" + User.token + "&type=" + type + "&name=" + name + "&location=" + location + "&temp=" + temp + "&humid=" + humid;
 
-            MessageBox.Show(User.token);
+            MessageBox.Show(url);
 
             using (WebClient client = new WebClient()) {
                 string pagesource = client.DownloadString(url);

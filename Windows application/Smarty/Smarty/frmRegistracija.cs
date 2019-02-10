@@ -28,8 +28,6 @@ namespace Smarty {
 
             string url = "https://mjerenje.info/dev_services/registration.php?type=user" + "&token=" + User.token + "&user=" + username + "&pass=" + pass + "&email=" + email;
 
-            MessageBox.Show(User.token);
-
             using (WebClient client = new WebClient()) {
                 var pagesource = client.DownloadString(url);
 

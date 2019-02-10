@@ -22,6 +22,8 @@ namespace Smarty {
             public string time { get; set; }
             public string temp { get; set; }
             public string moist { get; set; }
+            public string avgTemp { get; set; }
+            public string avgMoist { get; set; }
             //public object alarming { get; set; }
         }
 
@@ -42,36 +44,56 @@ namespace Smarty {
             unixT = int.Parse(dateTimePicker2.Value.Subtract(new DateTime(1970, 1, 1)).TotalSeconds.ToString());
         }
 
+        public static DateTime UnixTimeStampToDateTime(double unixTimeStamp) {
+            // Unix timestamp is seconds past epoch
+            System.DateTime dtDateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, System.DateTimeKind.Utc);
+            dtDateTime = dtDateTime.AddSeconds(unixTimeStamp).ToLocalTime();
+            return dtDateTime;
+        }
+
         private void btnPrikazi_Click(object sender, EventArgs e) {
             string type = comboBox1.Text.ToString();
             string uuid = comboBox2.Text.ToString();
 
             uuid.Trim();
-            MessageBox.Show(uuid);
 
             string url2 = "https://mjerenje.info/dev_services/charts.php?type=" + type + "&uuid=" + uuid + "&token=" + User.token + "&unixF=" + unixF + "&unixT=" + unixT;
 
             url2 = Regex.Replace(url2, @"\s", "");
-            MessageBox.Show(url2);
 
             using (WebClient client = new WebClient()) {
                 string pagesource = client.DownloadString(url2);
 
-                MessageBox.Show(pagesource);
-
                 RootObject instance = Newtonsoft.Json.JsonConvert.DeserializeObject<RootObject>(pagesource);
 
-                List<string> time = instance.data.Select (p => p.time).ToList();
-                List<string> temp = instance.data.Select (p => p.temp).ToList();
-                List<string> moist = instance.data.Select (p => p.moist).ToList();
-                
-                foreach (string s in temp) {
-                    MessageBox.Show(s);
+                List<string> time;
+                List<string> temp;
+                List<string> moist;
+
+                if (comboBox1.Text == "min") {
+                    time = instance.data.Select(p => p.time).ToList();
+                    temp = instance.data.Select(p => p.temp).ToList();
+                    moist = instance.data.Select(p => p.moist).ToList();
+                }
+                else {
+                    time = instance.data.Select(p => p.time).ToList();
+                    temp = instance.data.Select(p => p.avgTemp).ToList();
+                    moist = instance.data.Select(p => p.avgMoist).ToList();
+                }
+
+                List<double> dTemp = temp.Select(x => double.Parse(x, CultureInfo.InvariantCulture)).ToList();
+                List<double> dMoist = moist.Select(x => double.Parse(x, CultureInfo.InvariantCulture)).ToList();
+
+                chart1.ChartAreas[0].AxisX.Title = "Time";
+                for (int i=0; i < dTemp.Count-1; i++) {
+                    var x = UnixTimeStampToDateTime(double.Parse(time[i])).ToString();
+                    chart1.Series["Temp"].Points.AddXY(x, dTemp[i]);
                 }
                 
+                foreach (double d in dMoist) {
+                    chart1.Series["Moisture"].Points.AddY(d);
+                }
             }
-            
-            MessageBox.Show(url2);
         }
 
         private void frmGrafovi_Load(object sender, EventArgs e) {
@@ -96,9 +118,7 @@ namespace Smarty {
                     comboBox2.Items.Add(s);
                 }
 
-                if (success == "1") {
-
-                }
+                if (success == "1") { }
                 else {
                     MessageBox.Show(message);
                 }
